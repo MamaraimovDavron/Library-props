@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+  box-shadow: 0px 0px 10px black;
+  padding: 10px;
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-box h1 {
+  margin: 10px;
+}
+
+.book-card {
+  box-shadow: 0px 0px 10px black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.book-card:hover {
+  transform: scale(1.03);
+  transition: 0.4s;
+}
+.book-card h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.book-card img {
+  width: 70%;
+  margin: 5px;
+  -webkit-clip-path: polygon(0 0, 94% 10%, 100% 83%, 0% 100%);
+          clip-path: polygon(0 0, 94% 10%, 100% 83%, 0% 100%);
+}
+.book-card .author {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+.book-card .genre {
+  font-size: 30px;
+}
+.book-card .number {
+  font-size: 20px;
+}
+.book-card .date {
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
